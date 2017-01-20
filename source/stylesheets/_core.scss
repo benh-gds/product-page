@@ -3,6 +3,12 @@
 $toolkit-font-stack: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
 $toolkit-font-stack-tabular: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
 
+/* XXX hack the header spacing while we're missing the crown */
+.header__title {
+    padding-left: 0 !important;
+}
+
+
 @import "govuk_frontend_toolkit/stylesheets/colours";
 @import "govuk_frontend_toolkit/stylesheets/conditionals";
 @import "govuk_frontend_toolkit/stylesheets/css3";
