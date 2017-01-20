@@ -1,6 +1,7 @@
 ---
 applications:
-- name: registers-product-pages-sandbox
+- name: registers
   memory: 64M
+  instances: 2
   path: ./build
   buildpack: staticfile_buildpack
