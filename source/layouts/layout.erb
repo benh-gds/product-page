@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title><%= current_page.data.title && "#{current_page.data.title} – " %>GOV.UK Product Pages</title>
+    <title><%= current_page.data.title && "#{current_page.data.title} – " %>GOV.UK</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -40,8 +40,8 @@
           <ul>
             <%
               {
-                'About' => '/',
                 'Using Registers' => '/using-registers.html',
+                'Register Status' => 'https://register-status.herokuapp.com/registers',
                 'Documentation' => 'http://open-registers-docs.readthedocs.io/en/latest/',
                 'Support' => '/support.html'
               }.each do |title, url|
